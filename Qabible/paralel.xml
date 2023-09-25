@@ -1,0 +1,16 @@
+<suite name="MyTestSuite" paralel="test" thread-count="2">
+	<test name="Chrome test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCases.LoginTestCases"></class>
+			
+		</classes>
+	</test>
+	<test name="Edge Test">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testCases.LoginTestCases"></class>
+			
+		</classes>
+	</test>
+</suite>
