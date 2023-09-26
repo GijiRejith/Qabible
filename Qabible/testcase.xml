@@ -3,7 +3,7 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			
-			<class name="testCases.LoginTestCases"></class>
+			<class name="testCases.TimeSheetTestCase"></class>
 			
 		</classes>
 	</test>

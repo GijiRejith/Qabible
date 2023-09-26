@@ -1,5 +1,7 @@
 package elementRepository;
 
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.WebDriver;
@@ -33,7 +35,7 @@ public class TimeSheetPage {
 		
    }
 	public void fileUpload() throws Exception {
-		gu.toUploadfile("//src//main//resources//GIJIg.pdf");
+		gu.toUploadfile("\\src\\main\\resources\\GIJIg.pdf");
 	    gu.robotClassForKeyPress(KeyEvent.VK_CONTROL);
 	    gu.robotClassForKeyPress(KeyEvent.VK_V);
 	    gu.robotClassForKeyRelease(KeyEvent.VK_CONTROL);

@@ -9,7 +9,7 @@ import elementRepository.Clientpage;
 import elementRepository.LoginPage;
 
 public class ClientTestCase extends BaseClass {
-	// @Test
+	 @Test
 		public void verifyTextOfSearchButton() {
 			LoginPage lp = new LoginPage(driver);
 			lp.inputUserName("carol");
@@ -22,7 +22,7 @@ public class ClientTestCase extends BaseClass {
 			String expectedResult = "Search";
 			Assert.assertEquals(actualResult, expectedResult, Constant.ERRORMESSAGEWRONGSEARCHBUTTON);
 		}
-	// @Test
+	 @Test
 	 public void verifyCheckboxIsSelected() {
 		 LoginPage lp = new LoginPage(driver);
 			lp.inputUserName("carol");
